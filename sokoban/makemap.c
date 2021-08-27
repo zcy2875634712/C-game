@@ -13,12 +13,20 @@ int main()
 	SET(element[0], BLANK);
 	SET(element[1], WALL);
 	SET(element[2], TARGET);
+
+	//box on blank
 	SET(element[3], BLANK);
 	SET(element[3], BOX);
+
+	//box on target
 	SET(element[4], TARGET);
 	SET(element[4], BOX);
+
+	//man on blank
 	SET(element[5], BLANK);
 	SET(element[5], MAN);
+
+	//man on target
 	SET(element[6], TARGET);
 	SET(element[6], MAN);
 
